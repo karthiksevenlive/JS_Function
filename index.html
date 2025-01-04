@@ -1,22 +1,29 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <title>JavaScript Basis</title>
+  </head>
 <body>
 
 
-
-<p id="demo"></p>
-
 <script>
-// debugger;    
-let x = myFunction(4, 3);
+  function myfun(){
+    debugger;
+    let a = 10;
+    let b = 20;
+    let c = a+b;
+    console.log(c);
+  }
+  myfun();
+  function myfun1(){
+    debugger;
+    let a = 30;
+    let b = 30;
+    let c = a+b;
+    console.log(c);
+  }
+  myfun1();
 
-document.getElementById("demo").innerHTML = x;
-
-function myFunction(a, b) {
-
-  return a * b;
-}
 </script>
-
 </body>
 </html>
